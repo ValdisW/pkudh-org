@@ -22,7 +22,7 @@ module.exports = {
       {
         text: "学术活动",
         items: [
-          { text: "数字人文暑期工作坊2022", link: "/" },
+          { text: "数字人文暑期工作坊2022", link: "/test.html" },
           { text: "数字人文作品展2022", link: "/" },
           { text: "古籍智能系列研讨会2022", link: "/gujiai" },
           { text: "中国历史研究云端国际论坛2020", link: "/seminar" },
