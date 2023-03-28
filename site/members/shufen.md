@@ -1,7 +1,7 @@
 ---
 title: "陈淑芬"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 
 ---
 

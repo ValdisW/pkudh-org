@@ -2,10 +2,11 @@
 title: "研究平台 | “吾与点”古籍智能整理平台"
 date: 2021-05-28T13:51:51+08:00
 author: KvLab
-image: "images/blog/blog-20/cover.png"
-bg_image: "images/blog.jpg"
-categories: ["学术成果"]
-tags: ["平台项目"]
+image: "/images/blog/blog-20/cover.png"
+bg_image: "/images/blog.jpg"
+categories: 学术成果
+tags:
+  - 平台项目
 draft: false
 ---
 

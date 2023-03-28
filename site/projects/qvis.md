@@ -1,15 +1,21 @@
 ---
+index: 2
 title: "中国古代历史人物迁徙可视化"
-draft: false
-image: "images/portfolio/pro3.jpg"
-bg_image: "images/bg.jpg"
+intro: 《经籍指掌——中国历代典籍目录分析系统》是由北京大学数字人文研究中心与中国科学院自然科学史研究所联合研发的一套针对中国历代典籍目录之间类书与书目之间关系的可视化分析系统。项目属于“国家古籍数字化工程专项经费资助项目”。系统对历朝史志目录、《四库全书总目》、《中国古籍总目》等九种代表性官修目录的数据进行标准化处理与书目认同，并利用可视化手段对各目录之间的关系进行呈现。
+image: "/images/portfolio/pro3.jpg"
+bg_image: "/images/bg.jpg"
 category: "地理信息系统可视化"
-weight: 9
-information:
-  - label: "项目地址"
-    info: "http://cbdb-qvis.pkudh.org/"
-  - label: "标签"
-    info: "CBDB、中国历代人文传记资料库、迁徙、学术传承、可视化"
+link: "http://cbdb-qvis.pkudh.org/"
+tags:
+  - "CBDB"
+  - "中国历代人文传记资料库"
+  - "迁徙"
+  - "学术传承"
+  - "可视化"
+colors:
+  - "#5C71A3"
+  - "#8792A1"
+  - "#F7F9FC"
 ---
 
 ## 研究背景

@@ -1,16 +1,20 @@
 ---
-title: "“吾与点”古籍智能处理系统"
-draft: false
-image: "images/portfolio/wyd4.png"
-bg_image: "images/bg.jpg"
+index: 7
+title: “吾与点”古籍智能处理系统
+intro: 中华文明历史悠久，古典文籍浩如烟海。古籍具有极高的文献价值和学术价值，古籍整理不仅是连接现代和历史的桥梁，而且有利于民族文化的传承和研究。而古人在著书时一般不使用标点，现存的许多古籍也没有断句和标点，这给读者阅读学习和学者研究古籍造成了障碍。命名实体识别在古籍文献数字化处理过程中极为重要，是文白翻译、关系抽取等一系列自动化处理工作的基础，能够从古籍文献中自动识别出专名信息是一项非常重要且有价值的工作。传统的古籍整理通过选定某一代表性版本作为底本，通底本文字，同时施以现代标点，标示书名、人名、地名、朝代名，旨在提供一个文字准确，标点可靠，方便阅读的排印文本。“吾与点古籍智能整理平台第二版”是由北京大学数字人文研究中心研发的智能化古籍整理平台。
+image: "/images/portfolio/wyd4.png"
 category: "古籍智能处理"
-tags: ["古籍整理", "人工智能", "自动句读", "自动标点", "专名识别"]
-weight: 4
-information:
-  - label: "原型系统访问地址"
-    info: "http://wyd.pkudh.xyz/"
-  - label: "标签"
-    info: "古籍整理、人工智能、自动句读、自动标点、专名识别"
+tags:
+  - 古籍整理
+  - 人工智能
+  - 自动句读
+  - 自动标点
+  - 专名识别
+link: "http://wyd.pkudh.xyz/"
+colors:
+  - "#478BDF"
+  - "#627DD8"
+  - "#F6FAFF"
 ---
 
 ## 背景
@@ -51,13 +55,13 @@ information:
 
 ## 团队成员
 
-- 指导教师：王军、苏祺、杨浩
-- 模型研发：唐雪梅、严承希
-- 数据处理：唐雪梅、陈雨航
-- 前端开发：付炳豪、黄恒博
-- 后端开发：付炳豪、孟令勇
-- Logo 设计：李若屹
-- 界面设计：梁利敏、汪博涵、李文琦
+**指导教师：** 王军、苏祺、杨浩  
+**模型研发：** 唐雪梅、严承希  
+**数据处理：** 唐雪梅、陈雨航  
+**前端开发：** 付炳豪、黄恒博  
+**后端开发：** 付炳豪、孟令勇  
+**Logo 设计：** 李若屹  
+**界面设计：** 梁利敏、汪博涵、李文琦
 
 <br>
 
@@ -69,10 +73,7 @@ information:
 
 ## 成果发表
 
-· Yan, C., Su, Q., & Wang, J. (2020). MoGCN: mixture of gated convolutional neural network for named entity recognition of Chinese historical texts. IEEE Access, (08), 181629-181639. doi:0.1109/ACCESS.20 20.3026535.
-
-· Yan, C., Wang, J. (2020). Exploiting Hybrid Subword Information for Chinese Historical Named Entity Recognition. In 2020 IEEE International Conference on Big Data (Big Data).
-
-· 唐雪梅, 苏祺, 王军, 陈雨航, 杨浩. 2022 .基于预训练语言模型的繁体古文句读研究[J].中文信息学报.
-
-· Xuemei Tang, Jun Wang, Qi Su.That Slepen Al the Nyght with Open Ye! Cross-era Sequence Segmentation with Switch-memory[C]. 2022. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics(ACL).
+- Yan, C., Su, Q., & Wang, J. (2020). MoGCN: mixture of gated convolutional neural network for named entity recognition of Chinese historical texts. IEEE Access, (08), 181629-181639. doi:0.1109/ACCESS.20 20.3026535.
+- Yan, C., Wang, J. (2020). Exploiting Hybrid Subword Information for Chinese Historical Named Entity Recognition. In 2020 IEEE International Conference on Big Data (Big Data).
+- 唐雪梅, 苏祺, 王军, 陈雨航, 杨浩. 2022 .基于预训练语言模型的繁体古文句读研究[J].中文信息学报.
+- Xuemei Tang, Jun Wang, Qi Su.That Slepen Al the Nyght with Open Ye! Cross-era Sequence Segmentation with Switch-memory[C]. 2022. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics(ACL).

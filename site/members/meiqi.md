@@ -1,7 +1,7 @@
 ---
 title: "留美琪"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 
 ---
 

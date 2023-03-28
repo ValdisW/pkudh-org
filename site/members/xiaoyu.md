@@ -1,7 +1,7 @@
 ---
 title: "李晓煜"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 ---
 #### 基本信息
 院校：北京大学信息管理系

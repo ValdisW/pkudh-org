@@ -1,15 +1,20 @@
 ---
-title: "“宋元学案”知识图谱系统"
-draft: false
-image: "images/portfolio/pro1.jpg"
-bg_image: "images/bg.jpg"
+index: 5
+title: “宋元学案”知识图谱系统
+intro: “宋元学案知识图谱系统”对 240 万字的《宋元学案》进行了文本处理和分析，将学案中的人物、时间、地点、著作以及它们之间的复杂语义关系提取出来构造成知识图谱，提供可视化展现、交互式浏览、语义化查询等功能。
+image: "/images/portfolio/pro1.jpg"
+bg_image: "/images/bg.jpg"
 category: "古籍知识图谱"
-weight: 6
-information:
-  - label: "原型系统访问地址"
-    info: "http://syxa.pkudh.org "
-  - label: "标签"
-    info: "宋元学案、知识图谱、语义检索、可视化"
+link: "http://syxa.pkudh.org"
+tags:
+  - 宋元学案
+  - 知识图谱
+  - 语义检索
+  - 可视化
+colors:
+  - "#C35555"
+  - "#BAA78F"
+  - "#F2ECE3"
 ---
 
 ## 介绍
@@ -20,9 +25,9 @@ information:
 
 ## 开发团队
 
-指导教师：王军<br>
-产品设计：李晓煜，刘姝然<br>
-前端开发：李晓煜，陈诺，张力元<br>
-数据处理：李晓煜，王林旭，杨海慈<br>
-后端开发：李晓煜，卞恩华<br>
-架构设计与部署：李晓煜，严承希，刘俊杰
+**指导教师：** 王军  
+**产品设计：** 李晓煜、刘姝然  
+**前端开发：** 李晓煜、陈诺、张力元  
+**数据处理：** 李晓煜、王林旭、杨海慈  
+**后端开发：** 李晓煜、卞恩华  
+**架构设计与部署：** 李晓煜、严承希、刘俊杰

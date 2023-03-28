@@ -2,10 +2,11 @@
 title: "“智慧人文的探索与实践”研讨会暨北京大学数字人文研究中心成立仪式顺利召开"
 date: 2021-03-22T12:00:47+08:00
 author: KvLab
-image : "images/blog/blog-19/cover.png"
-bg_image: "images/blog.jpg"
-categories: ["学术活动"]
-tags: ["研讨会"]
+image : "/images/blog/blog-19/cover.png"
+bg_image: "/images/blog.jpg"
+categories: 学术活动
+tags:
+  - 研讨会
 draft: false
 ---
 2021年1月14日上午，由北京大学数字人文研究中心主办的“智慧人文的探索与实践”研讨会暨北京大学数字人文研究中心成立仪式在北京大学英杰交流中心月光厅顺利召开。来自中文系、历史学系、哲学系、外国语学院、信息科学与技术学院、城市环境学院、软件与微电子学院、信息管理系、体育教研部、新结构经济学研究院、考古文博学院等院系和机构的学者就北京大学数字人文研究中心的建设和跨学科融合研究进行了深入探讨。<!--more-->

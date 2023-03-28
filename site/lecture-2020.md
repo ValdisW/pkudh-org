@@ -1,105 +1,107 @@
+---
+title: 学科电子资源讲座2020
+---
+
 为响应疫情期间师生们利用电子资源的需求，筹建中的北京大学数字人文研究中心(筹)与北京大学图书馆通力合作，推出“人文学科电子资源与数字人文导航”系列在线直播讲座。讲座邀请图书馆的学科馆员主讲“学科数字资源”部分，数字人文研究中心(筹)的成员主讲“数字人文导航”部分。
 
 本次系列讲座由北大数字人文实验室发起，与北京大学图书馆共同举办。北大数字人文实验室下属北京大学信息管理系，实验室与北大各院系及图书馆的数字人文研究力量合作，共同致力于筹建“北京大学数字人文研究中心”，打造跨学科、多层次、协同合作的数字人文平台。
 
 本次系列讲座分别面向中文系、历史学系、哲学系和考古文博学院的师生举办四场。每场讲座两个小时，分成两部分：前一个小时由图书馆信息素质教育团队讲解该学术领域常用数据库的检索与利用，后一个小时由数字人文实验室的成员介绍数字人文的常用研究方法、工具和典型案例。
 
-#### 讲座信息如下：
+### 讲座信息如下：
 
-第一场讲座：
+#### 第一场讲座
+
 利用数据库助力中国语言文学研究+数字人文导航
 
-主讲人：
+**主讲人：**  
 栾伟平（北大图书馆副研究馆员，文学博士），王军，刘姝然，张力元（数字人文实验室）
 
-讲座时间：
+**讲座时间：**  
 2020.3.20 14:00-16:00
 
-内容简介：
+**内容简介：**  
 以北京大学图书馆自建及购买的电子资源为主，旁及开放共享资源，重点介绍中国语言文学学科常用的数据库，研究及资料查询中遇到的问题及解决方案；随后介绍数字人文的一般研究方法、研究工具和经典案例。
 
-录播视频：
-https://www.bilibili.com/video/BV1n741127HC?p=1
+**录播视频：**  
+[BiliBili](https://www.bilibili.com/video/BV1n741127HC?p=1)
 
-讲座 PPT：
-（北大网盘）https://disk.pku.edu.cn:443/link/FCC90BD4D3765203BFAEB34FA71FB66E  
-（百度网盘）https://pan.baidu.com/s/1DLLR3VQI0MO11RfhI_6NtQ 提取码：1oh3
+**讲座 PPT：**  
+（北大网盘）[https://disk.pku.edu.cn:443/link/FCC90BD4D3765203BFAEB34FA71FB66E](https://disk.pku.edu.cn:443/link/FCC90BD4D3765203BFAEB34FA71FB66E)  
+（百度网盘）[https://pan.baidu.com/s/1DLLR3VQI0MO11RfhI_6NtQ](https://pan.baidu.com/s/1DLLR3VQI0MO11RfhI_6NtQ) 提取码：1oh3
 
-第二场讲座：
+#### 第二场讲座
+
 哲学电子资源检索与利用+数字人文导航
 
-主讲人：
+**主讲人：**  
 唐勇（北大图书馆副研究馆员，情报学硕士）  
 王军，刘姝然（数字人文实验室）
 
-讲座时间：
+**讲座时间：**  
 2020.3.22 14:00-16:00
 
-内容简介：
+**内容简介：**  
 从如何找电子书、如何找电子期刊论文、如何找古籍三个角度详细讲解哲学常用数据库的检索技巧，推介哲学系（宗教学系）老师们常用的图书馆服务；随后介绍数字人文的一般研究方法、研究工具和经典案例。
 
-录播视频：
-https://www.bilibili.com/video/BV1n741127HC?p=2
+**录播视频：**  
+[BiliBili](https://www.bilibili.com/video/BV1n741127HC?p=2)
 
-讲座 PPT：
-（北大网盘）https://disk.pku.edu.cn:443/link/ABA29A8C7D4908C8500A22AB1E54A4D2  
-（百度网盘）https://pan.baidu.com/s/1b_lU-WMy-qGDKMo8qXdqDQ 提取码：tx7u
+**讲座 PPT：**  
+（北大网盘）[https://disk.pku.edu.cn:443/link/ABA29A8C7D4908C8500A22AB1E54A4D2](https://disk.pku.edu.cn:443/link/ABA29A8C7D4908C8500A22AB1E54A4D2)  
+（百度网盘）[https://pan.baidu.com/s/1b_lU-WMy-qGDKMo8qXdqDQ](https://pan.baidu.com/s/1b_lU-WMy-qGDKMo8qXdqDQ) 提取码：tx7u
 
-第三场讲座：
+#### 第三场讲座
+
 历史学电子资源检索与利用+数字人文导航
 
-主讲人：
+**主讲人：**  
 张慧丽（北大图书馆副研究馆员，图书馆学博士）
 王军，刘姝然（北京大学信息管理系）
 
-讲座时间：
+**讲座时间：**  
 2020.3.28 14:00-16:00
 
-内容简介：
+**内容简介：**  
 通过介绍和展示北大图书馆藏历史学常用的中外文数据库、CASHL 大型特藏、特色缩微文献等，帮助师生拓宽文献查找思路和科研、教学视野；随后介绍数字人文的一般研究方法、研究工具和经典案例。
 
-录播视频：
-（北大图书馆资源，校内访问）http://media.lib.pku.edu.cn/index.php?m=content&c=index&a=show&catid=33&id=7988
+**录播视频：**  
+（北大图书馆资源，校内访问）[http://media.lib.pku.edu.cn/index.php?m=content&c=index&a=show&catid=33&id=7988](http://media.lib.pku.edu.cn/index.php?m=content&c=index&a=show&catid=33&id=7988)
 
-讲座 PPT：
-（百度网盘）https://pan.baidu.com/s/1H6S6sJq6JBH8uExyuSetLA 提取码：4cfa
+**讲座 PPT：**  
+（百度网盘）[https://pan.baidu.com/s/1H6S6sJq6JBH8uExyuSetLA](https://pan.baidu.com/s/1H6S6sJq6JBH8uExyuSetLA) 提取码：4cfa
 
-第四场讲座：
+#### 第四场讲座
+
 考古学中外文电子资源概览+数字人文导航
 
-主讲人：
+**主讲人：**  
 陈冲（北大考古文博学院信息中心主任，考古学及博物馆学博士）
 王军，刘姝然（北京大学信息管理系）
 
-讲座时间：
+**讲座时间：**  
 2020.3.29 14:00-16:00
 
-内容简介：
+**内容简介：**  
 依据考古学的学科特性和电子资源的类型特征，对考古学专业常用的文献和实物资源进行介绍，主要内容包括常用中外文数据库的种类、内容、特色和方法等，在此基础上试探考古学电子资源与考古学研究的关系；随后介绍数字人文的一般研究方法、研究工具和经典案例。
 
-录播视频：
+**录播视频：**  
+（北大图书馆资源，校内访问）[http://media.lib.pku.edu.cn/index.php?m=content&c=index&a=show&catid=33&id=7987](http://media.lib.pku.edu.cn/index.php?m=content&c=index&a=show&catid=33&id=7987)
 
-（北大图书馆资源，校内访问）http://media.lib.pku.edu.cn/index.php?m=content&c=index&a=show&catid=33&id=7987
+**讲座 PPT：**  
+（百度网盘）[https://pan.baidu.com/s/1wobqNDlHSoKQcOimG3mRKg](https://pan.baidu.com/s/1wobqNDlHSoKQcOimG3mRKg) 提取码：6f3x
 
-讲座 PPT：
+### 数字人文部分
 
-（百度网盘）https://pan.baidu.com/s/1wobqNDlHSoKQcOimG3mRKg 提取码：6f3x
-
-#### 数字人文部分
-
-主讲人：
-
+**主讲人：**  
 王军、刘姝然（数字人文简介与资源导航），史睿（媒体转变时代读书人何以自处）
 
-内容简介：
-
+**内容简介：**  
 第一个视频依托数字人文研究中心官网中“探索数字人文”部分的资源导航，介绍数字人文经典案例、研究方法、研究流程、常见研究工具等，分享数字人文理念；第二个视频围绕“媒体转变时代读书人如何自处”这一话题展开讨论。
 
-录播视频：
+**录播视频：**  
+数字人文简介与资源导航：[BiliBili](https://www.bilibili.com/video/BV18i4y1b7Ne)  
+媒体转变时代读书人何以自处：[BiliBili](https://www.bilibili.com/video/BV16V411f7QL/)
 
-数字人文简介与资源导航：https://www.bilibili.com/video/BV18i4y1b7Ne
-
-媒体转变时代读书人何以自处：https://www.bilibili.com/video/BV16V411f7QL/
-
-讲座 PPT：
-（数字人文简介与资源导航，百度网盘）https://pan.baidu.com/s/1Ac73Vdef8hZibOV_v9g-Ng 提取码：exv4
+**讲座 PPT：**  
+（数字人文简介与资源导航，百度网盘）[https://pan.baidu.com/s/1Ac73Vdef8hZibOV_v9g-Ng](https://pan.baidu.com/s/1Ac73Vdef8hZibOV_v9g-Ng) 提取码：exv4

@@ -1,7 +1,7 @@
 ---
 title: "王军"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 ---
 
 <div style="display: flex; align-items: center; margin-bottom: 20px">

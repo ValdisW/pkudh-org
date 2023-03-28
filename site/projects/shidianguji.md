@@ -1,13 +1,15 @@
 ---
-title: "识典古籍阅读与整理平台"
-draft: false
-image: "images/portfolio/shidianguji1.png"
-bg_image: "images/bg.jpg"
+index: 8
+title: 识典古籍阅读与整理平台
+intro: 为了更好地保护与利用古籍，提升古籍数字化水平，向大众传播古籍知识，在字节跳动的支持下，北京大学与字节跳动公益部门联合成立了“北京大学-字节跳动开放实验室”，期望解决古籍数字化利用过程中的瓶颈问题，打造互联网环境下内容丰富、使用便捷的高质量古籍数字化阅读平台，面向海内外学者和古籍爱好者免费开放。同时为了支持阅读平台的数据加工的需要，还建设有面向古籍收藏机构和整理人员的一站式古籍智能整理平台。
+image: "/images/portfolio/shidianguji1.png"
+bg_image: "/images/bg.jpg"
 category: "古籍知识图谱"
-weight: 3
-information:
-  - label: "访问地址"
-    info: "https://shidianguji.com/"
+link: "https://shidianguji.com/"
+colors:
+  - "#C35555"
+  - "#BAA78F"
+  - "#F2ECE3"
 ---
 
 ## 简介

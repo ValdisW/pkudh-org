@@ -1,15 +1,21 @@
 ---
-title: "朱子年谱可视化系统"
-draft: false
-image: "images/portfolio/nianpu.jpeg"
-bg_image: "images/bg.jpg"
+index: 4
+title: 朱子年谱可视化系统
+intro: 本项目的主要贡献是提出面向朱熹年谱长编文本的知识重构体系，为构建年谱文本的知识重构通用体系奠定基础；提供了一种基于知识重构实现群体传记的新视角；通过对事件的时空可视化呈现，克服了年谱编撰的重“编年”，而轻“系地”的问题。
+image: "/images/portfolio/nianpu.jpeg"
+bg_image: "/images/bg.jpg"
 category: "地理信息系统可视化"
-weight: 7
-information:
-  - label: "原型系统访问地址"
-    info: "https://nianpu.pkudh.org/"
-  - label: "标签"
-    info: "朱子年谱、地理信息系统、可视化、数字人文、知识重构"
+link: "https://nianpu.pkudh.org/"
+tags:
+  - 朱子年谱
+  - 地理信息系统
+  - 可视化
+  - 数字人文
+  - 知识重构
+colors:
+  - "#1839CC"
+  - "#50515B"
+  - "#F4F6F9"
 ---
 
 ## 介绍
@@ -22,7 +28,7 @@ information:
 
 ## 团队成员
 
-指导教师：王军、史睿、位通<br>
-产品设计：桑宇辰、王睿、陈淑芬<br>
-数据处理：桑宇辰、王睿、陈淑芬<br>
-系统开发：桑宇辰、王睿、汪乐天
+**指导教师：** 王军、史睿、位通  
+**产品设计：** 桑宇辰、王睿、陈淑芬  
+**数据处理：** 桑宇辰、王睿、陈淑芬  
+**系统开发：** 桑宇辰、王睿、汪乐天

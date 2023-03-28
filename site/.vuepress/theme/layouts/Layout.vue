@@ -1,18 +1,37 @@
 <template>
-  <!-- 影响全部的页面 -->
-  <div>
+  <!-- 影响全部的默认页面 -->
+  <div class="plain-container">
     <Nav />
-    <Content />
+    <main>
+      <h1 class="title" v-text="$page.title"></h1>
+      <p class="date">
+        {{
+          $page.frontmatter.date
+            ? new Date($page.frontmatter.date).toLocaleDateString("zh-CN", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              })
+            : ""
+        }}
+      </p>
+      <!-- 封面图 -->
+      <img class="cover" :src="$page.frontmatter.image" :alt="$page.frontmatter.image" />
+      <Content class="plain-content" />
+    </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from "../components/Nav.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "Layout",
   components: {
     Nav,
+    Footer,
   },
   mounted() {
     console.log(this);
@@ -23,19 +42,68 @@ export default {
 </script>
 
 <style lang="less">
-* {
-  margin: 0;
-  padding: 0;
+html {
+  font-size: 20px;
+  background: #ffffff;
 }
+.plain-container {
+  min-height: 100vh;
+  main {
+    width: 38.4rem;
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
 
-a {
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
+    h1.title {
+      margin: 3rem 0 0;
+      font-size: 1.6rem;
+    }
+    .date {
+      color: #999;
+      margin: 0.3rem 0 1rem;
+      font-size: 0.7rem;
+    }
+    img.cover {
+      width: 100%;
+      display: block;
+      margin: 0 0 1rem;
+    }
+
+    .plain-content {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 1rem 0;
+      }
+      p {
+        margin: 0 0 1.8rem;
+        letter-spacing: 0.04rem;
+        line-height: 1.5rem;
+        color: #454545;
+      }
+      img {
+        max-width: 100%;
+      }
+      table {
+        font-size: 0.8rem;
+        tr {
+          td {
+            padding: 0.3rem 0.6rem;
+            color: #454545;
+            letter-spacing: 0.04rem;
+          }
+        }
+      }
+      li {
+        font-size: 0.8rem;
+        margin: 0.3rem 0;
+        color: #454545;
+        line-height: 1.5rem;
+        letter-spacing: 0.04rem;
+      }
+    }
   }
-}
-
-img {
-  max-width: 100%;
 }
 </style>

@@ -1,7 +1,7 @@
 ---
 title: "杨浩"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 ---
 <div style="display: flex; align-items: center; margin-bottom: 20px">
   <img class="photo" src="/images/yanghao.jpg" alt="yanghao" style="height: 300px; margin-right: 50px">

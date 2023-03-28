@@ -1,7 +1,7 @@
 ---
 title: "严承希"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 ---
 
 #### 学业经历：

@@ -1,3 +1,7 @@
+---
+title: 中国历史研究云端国际论坛2020
+---
+
 #### “北京论坛”云端国际论坛系列——数字人文视角下的中国历史研究
 
 #### Beijing Forum Webinar Series——The Chinese History Studies in Digital Context

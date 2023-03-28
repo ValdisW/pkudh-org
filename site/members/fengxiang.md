@@ -1,7 +1,7 @@
 ---
 title: "王凤翔"
 draft: false
-bg_image: "images/home-bg.png"
+bg_image: "/images/home-bg.png"
 ---
 
 #### 基本信息

@@ -1,14 +1,71 @@
 <template>
-  <!-- 影响全部的页面 -->
-  <div>
+  <!-- 首页 -->
+  <div id="home">
     <Nav />
-    <canvas :width="canvas_width" :height="canvas_height" ref="canvas"></canvas>
+    <main>
+      <Banner :banner_list="bnl" />
+
+      <!-- 新闻 -->
+      <section id="news">
+        <h2>新闻动态</h2>
+        <ul class="latest-news-list">
+          <li v-for="n in latest_news">
+            <a :href="n.path">
+              <img :src="n.frontmatter.image" />
+              <p class="title" v-text="n.title"></p>
+              <p class="date">
+                {{
+                  new Date(n.frontmatter.date).toLocaleDateString("zh-CN", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric",
+                  })
+                }}
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 研究方向 -->
+      <section id="dir">
+        <h2>研究方向</h2>
+        <ul>
+          <li>
+            <div></div>
+            <span>数字人文</span>
+          </li>
+          <li>
+            <div></div>
+            <span>古籍智能</span>
+          </li>
+          <li>
+            <div></div>
+            <span>知识图谱</span>
+          </li>
+          <li>
+            <div></div>
+            <span>用户行为</span>
+          </li>
+          <li>
+            <div></div>
+            <span>文化计算</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- <canvas :width="canvas_width" :height="canvas_height" ref="canvas"></canvas> -->
     <Content />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from "../components/Nav.vue";
+import Footer from "../components/Footer.vue";
+
+import Banner from "../components/Banner.vue";
+
 import * as THREE from "three";
 
 import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
@@ -22,6 +79,8 @@ export default {
   name: "Layout",
   components: {
     Nav,
+    Footer,
+    Banner,
   },
   data() {
     return {
@@ -33,6 +92,10 @@ export default {
       composer: null,
       frame_count: 0,
       logo: null,
+
+      latest_news: [],
+
+      bnl: [],
     };
   },
   methods: {
@@ -128,9 +191,17 @@ export default {
     brand() {
       let logo = new THREE.Group();
 
+      const sprite = new THREE.TextureLoader().load("../../circle.png");
+
       // 添加形状1
       let left_geo = new THREE.BoxGeometry(100, 400, 80, 10, 40, 10); // 参照模型
-      let left_mat = new THREE.PointsMaterial({ size: 8, color: "#004098" });
+      let left_mat = new THREE.PointsMaterial({
+        size: 8,
+        map: sprite,
+        color: "#004098",
+        alphaTest: 0.5,
+        transparent: true,
+      });
       let left_points = this.vertexMesh(left_geo, left_mat);
       left_points.position.set(-300, 0, 0);
       logo.add(left_points);
@@ -155,7 +226,13 @@ export default {
       };
 
       const middle_geo = new THREE.ExtrudeGeometry(middle_shape, extrudeSettings);
-      const middle_mat = new THREE.PointsMaterial({ size: 8, color: "#fdd000" });
+      const middle_mat = new THREE.PointsMaterial({
+        size: 8,
+        map: sprite,
+        color: "#fdd000",
+        alphaTest: 0.5,
+        transparent: true,
+      });
 
       let middle_points = this.vertexMesh(middle_geo, middle_mat);
       middle_points.position.set(-200, -200, 0);
@@ -173,7 +250,13 @@ export default {
       right_shape.lineTo(100, 250);
 
       const right_geo = new THREE.ExtrudeGeometry(right_shape, extrudeSettings);
-      const right_mat = new THREE.PointsMaterial({ size: 8, color: "#004098" });
+      const right_mat = new THREE.PointsMaterial({
+        size: 8,
+        map: sprite,
+        color: "#004098",
+        alphaTest: 0.5,
+        transparent: true,
+      });
       let right_points = this.vertexMesh(right_geo, right_mat);
       right_points.position.set(20, -200, 0);
       logo.add(right_points);
@@ -194,20 +277,96 @@ export default {
     },
   },
   mounted() {
-    this.init();
-    // this.test();
-    this.animate();
+    let news = this.$site.pages.filter((e) => e.id == "news");
+    news.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
+    this.latest_news = news.slice(0, 5);
+
+    // 选择项目，加入banner列表
+    let projects = this.$site.pages.filter((e) => e.id == "projects");
+    projects.sort((a, b) => b.frontmatter.index - a.frontmatter.index);
+    console.log(projects);
+    this.bnl = projects.slice(0, 7).map((e) => {
+      return {
+        pic_url: e.frontmatter.image,
+        link_url: e.path,
+        title: e.frontmatter.title,
+        intro: e.frontmatter.intro,
+        description: e.frontmatter.title,
+        link: e.frontmatter.link,
+        colors: e.frontmatter.colors,
+      };
+    });
+
+    // this.init();
+    // this.animate();
   },
 };
 </script>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-}
-
+<style lang="less">
 img {
   max-width: 100%;
+}
+main {
+  min-height: 100vh;
+  #news {
+    .latest-news-list {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      li {
+        width: 10rem;
+        margin: 0 1rem;
+        a {
+          img {
+            width: 100%;
+            height: 6rem;
+            object-fit: cover;
+          }
+          p {
+            text-decoration: none;
+            color: #000;
+          }
+          p.title {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+          p.date {
+            font-size: 0.6rem;
+            color: #999;
+          }
+        }
+      }
+    }
+  }
+  section {
+    padding: 4rem 0;
+    h2 {
+      text-align: center;
+      margin: 0 0 2rem;
+    }
+  }
+  #dir {
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      li {
+        margin: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div {
+          width: 2rem;
+          height: 2rem;
+          background: #ccc;
+          border-radius: 50%;
+          margin: 0 0 0.2rem;
+        }
+      }
+    }
+  }
 }
 </style>
