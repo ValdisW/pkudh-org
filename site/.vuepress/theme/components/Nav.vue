@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <header class="nav">
     <nav>
       <img class="logo" src="../../public/images/logo.png" alt="" />
       <ul class="main-list">
@@ -19,7 +19,7 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -51,7 +51,8 @@ export default {
     align-items: center;
 
     .logo {
-      height: 2rem;
+      height: 1.8rem;
+      padding: 0.1rem 0;
     }
 
     .main-list {
@@ -66,7 +67,7 @@ export default {
       }
 
       > li {
-        margin: 0 1rem;
+        margin: 0 0 0 2rem;
         cursor: pointer;
         position: relative;
 

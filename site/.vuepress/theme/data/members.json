@@ -1,0 +1,133 @@
+{
+  "supervisors": {
+    "title": "指导老师",
+    "members": [
+      {
+        "image": "images/wangjun.jpg",
+        "name": "王军",
+        "content": "北京大学信息管理系教授",
+        "link": "/member/wangjun"
+      },
+      {
+        "image": "images/suqi.png",
+        "name": "苏祺",
+        "content": "北京大学外国语言学及应用语言学研究所副教授",
+        "link": "/member/suqi"
+      },
+      {
+        "image": "images/yanghao.jpg",
+        "name": "杨浩",
+        "content": "北京大学哲学系助理教授",
+        "link": "/member/yanghao"
+      },
+      {
+        "image": "images/shirui.png",
+        "name": "史睿",
+        "content": "北京大学中国古代史研究中心副研究馆员",
+        "link": "/member/shirui"
+      },
+      {
+        "image": "images/weitong_0.jpg",
+        "name": "位通",
+        "content": "北京大学信息管理系助理研究员",
+        "link": "/member/weitong"
+      }
+    ]
+  },
+  "researchers": {
+    "title": "研究成员",
+    "members": [
+      {
+        "image": "images/xuemei.jpg",
+        "name": "唐雪梅",
+        "content": "研究方向：数字人文、自然语言处理",
+        "link": "/member/xuemei"
+      },
+      {
+        "image": "images/wenqi.jpg",
+        "name": "李文琦",
+        "content": "研究方向：用户行为研究、数据管护、人机交互",
+        "link": "/member/wenqi"
+      },
+      {
+        "image": "images/linxu.jpg",
+        "name": "王林旭",
+        "content": "研究方向：数字人文与知识组织",
+        "link": "/member/linxu"
+      },
+      {
+        "image": "images/siyu.jpg",
+        "name": "段思宇",
+        "content": "研究方向：自然语言处理、数字人文",
+        "link": "/member/siyu"
+      },
+      {
+        "image": "images/fengxiang.jpg",
+        "name": "王凤翔",
+        "content": "研究方向：知识图谱、数据分析、数字人文",
+        "link": "/member/fengxiang"
+      },
+
+      {
+        "image": "images/binghao.jpg",
+        "name": "付炳豪",
+        "content": "研究方向：自然语言处理、数字人文",
+        "link": "/member/binghao"
+      },
+      {
+        "image": "images/zekun.jpg",
+        "name": "邓泽琨",
+        "content": "研究方向：自然语言处理、数字人文",
+        "link": "/member/zekun"
+      },
+      {
+        "image": "images/shufen.jpg",
+        "name": "陈淑芬",
+        "content": "研究方向：信息管理与信息系统",
+        "link": "/member/shufen"
+      }
+    ]
+  },
+  "graduates": {
+    "title": "新近毕业生",
+    "members": [
+      {
+        "image": "images/jiachun.jpg",
+        "name": "李佳纯",
+        "content": "研究方向：知识图谱、可视化、用户行为",
+        "link": "/member/jiachun"
+      },
+      {
+        "image": "images/chengxi.jpeg",
+        "name": "严承希",
+        "content": "研究方向：数字人文和深度学习",
+        "link": "/member/chengxi"
+      },
+      {
+        "image": "images/liyuan.jpg",
+        "name": "张力元",
+        "content": "研究方向：数字人文、自然语言处理",
+        "link": "/member/liyuan"
+      },
+      {
+        "image": "images/xiaoyu.jpg",
+        "name": "李晓煜",
+        "content": "研究方向：数字人文，知识图谱，数据可视化",
+        "link": "/member/xiaoyu"
+      },
+      { "image": "images/yuchen.jpeg", "name": "桑宇辰", "content": "研究方向: 数据分析", "link": "/member/yuchen" },
+      {
+        "image": "images/ziyi.jpg",
+        "name": "何姿谊",
+        "content": "研究方向：数据分析与统计建模",
+        "link": "/member/ziyi"
+      },
+      {
+        "image": "images/yuhang.jpg",
+        "name": "陈雨航",
+        "content": "研究方向：NLP、社会网络分析、前后端开发初学者",
+        "link": "/member/yuhang"
+      }
+    ]
+  }
+}

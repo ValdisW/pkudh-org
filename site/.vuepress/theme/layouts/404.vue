@@ -1,27 +1,22 @@
 <template>
-  <div class="page-404">
-    <Nav />
-    <main>哈哈哈哈哈哈哈哈哈你迷路了好像</main>
-    <Footer />
-  </div>
+  <Page>
+    <h1>404</h1>
+  </Page>
 </template>
 
 <script>
-import Nav from "../components/Nav.vue";
-import Footer from "../components/Footer.vue";
+import Page from "../components/Page.vue";
+
 export default {
   name: "Layout",
   components: {
-    Nav,
-    Footer,
+    Page,
   },
 };
 </script>
 
 <style lang="less" scoped>
-.page-404 {
-  main {
-    min-height: 100vh;
-  }
+h1 {
+  text-align: center;
 }
 </style>

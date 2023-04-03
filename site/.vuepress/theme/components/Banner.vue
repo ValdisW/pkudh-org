@@ -42,9 +42,10 @@
             v-for="(n, i) in banner_list"
             :key="n.title"
             :class="{ active: i == current_index }"
-            v-text="n.title"
             @click="() => toggle(i)"
-          ></li>
+          >
+            <span v-text="n.title"> </span>
+          </li>
         </ul>
       </div>
     </div>
@@ -90,7 +91,7 @@ export default {
 </script>
 
 <style scoped lang="less">
-@control-width: 18rem;
+@control-width: 17rem;
 @control-color: #333;
 
 .banner {
@@ -107,10 +108,12 @@ export default {
     backdrop-filter: blur(0.5rem);
     .banner-content {
       display: flex;
+      justify-content: center;
       height: 20rem;
       box-shadow: inset 0 0 1.6rem 0.25rem rgba(14, 21, 47, 0.12), 0 0 1.6rem 0.25rem rgba(14, 21, 47, 0.12);
       .poster {
-        width: calc(100% - @control-width);
+        // width: calc(100% - @control-width);
+        width: fit-content;
         display: flex;
         background-size: 100% 60% !important;
         justify-content: center;
@@ -121,7 +124,7 @@ export default {
           margin: 3rem;
           transition: 0.3s;
 
-          width: 100%;
+          width: fit-content;
           box-sizing: border-box;
           height: 100%;
 
@@ -133,7 +136,7 @@ export default {
             box-sizing: border-box;
             background: #478bdf;
             height: 100%;
-            width: 27rem;
+            width: 25rem;
             padding: 2vh;
             img {
               display: block;
@@ -145,7 +148,7 @@ export default {
 
           .text {
             margin: 0 0 0 1.4rem;
-            flex: 0 0 20rem;
+            width: 17rem;
             border-left: 2px dashed #ccc;
             padding: 0 0 0 1.4rem;
             height: 100%;
@@ -208,9 +211,20 @@ export default {
           margin: 0 1.2rem;
           padding: 0.4rem 0.6rem;
           border-bottom: 1px solid #666;
-          &:hover,
-          &.active {
+          color: #ccc;
+          font-size: 0.7rem;
+          &:hover {
             background: #fff2;
+          }
+          &.active {
+            font-size: 0.8rem;
+            color: #fff;
+          }
+          span {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
           }
         }
       }

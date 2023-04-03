@@ -19,7 +19,7 @@ module.exports = {
       {
         text: "学术活动",
         items: [
-          { text: "数字人文暑期工作坊2022", link: "https://workshop2022.pkudh.org/", target: "_blank", rel: "" },
+          { text: "数字人文暑期工作坊2022", link: "https://camp2022.pkudh.org/", target: "_blank", rel: "" },
           { text: "数字人文作品展2022", link: "https://exhibition2022.pkudh.org/", target: "_blank", rel: "" },
           { text: "古籍智能系列研讨会2022", link: "/gujiai" },
           { text: "中国历史研究云端国际论坛2020", link: "/seminar-2020" },
@@ -52,9 +52,9 @@ module.exports = {
           {
             id: "projects",
             title: "研究平台",
-            dirname: "projects",
+            dirname: "project",
             path: "/projects/",
-            itemPermalink: "/projects/:slug",
+            itemPermalink: "/project/:slug",
             layout: "ProjectsIndex",
           },
         ],
@@ -64,6 +64,12 @@ module.exports = {
             keys: ["tag", "tags"],
             path: "/tag/",
             layout: "Tag",
+          },
+          {
+            id: "category",
+            keys: ["category", "categories"],
+            path: "/category/",
+            layout: "Category",
           },
         ],
       },

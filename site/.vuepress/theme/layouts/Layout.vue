@@ -67,24 +67,32 @@ html {
       display: block;
       margin: 0 0 1rem;
     }
-
     .plain-content {
       h1,
-      h2,
+      h2 {
+        margin: 2rem 0 1rem;
+      }
       h3,
       h4,
       h5,
       h6 {
-        margin: 1rem 0;
+        margin: 1.4rem 0 0.7rem;
       }
       p {
-        margin: 0 0 1.8rem;
+        margin: 0 0 1.2rem;
         letter-spacing: 0.04rem;
         line-height: 1.5rem;
         color: #454545;
       }
+      center {
+        font-size: 0.7rem;
+        color: #666;
+        margin: 0.6rem 0;
+      }
       img {
         max-width: 100%;
+        margin: 0 auto;
+        display: block;
       }
       table {
         font-size: 0.8rem;
@@ -95,6 +103,11 @@ html {
             letter-spacing: 0.04rem;
           }
         }
+      }
+      ul,
+      ol {
+        padding: 0 0 0 1rem;
+        margin: 0 0 1.2rem;
       }
       li {
         font-size: 0.8rem;

@@ -2,21 +2,21 @@
   <div class="page-divider" v-show="pages_sum > 0">
     <!-- 总页码数超过12时 -->
     <div class="all-pages" v-if="pages_sum > 12">
-      <li class="prev-page" @click="toPrevPage">上一頁</li>
+      <li class="prev-page" @click="toPrevPage">上一页</li>
       <li
         v-for="e in 2"
         :key="e"
         class="page-index"
         :class="{ is_current_page: current_page == e }"
         v-text="e"
-        @click="turnTo(e)"
+        @click="() => turnTo(e)"
       ></li>
       <div v-if="current_page < 6">
         <li
           v-for="e in 3"
           :key="e"
           v-text="e + 2"
-          @click="turnTo(e + 2)"
+          @click="() => turnTo(e + 2)"
           :class="{ is_current_page: current_page == e + 2 }"
         ></li>
       </div>
@@ -26,7 +26,7 @@
           v-for="e in 5"
           :key="e"
           v-text="current_page + e - 3"
-          @click="turnTo(current_page + e - 3)"
+          @click="() => turnTo(current_page + e - 3)"
           :class="{ is_current_page: current_page == current_page + e - 3 }"
         ></li>
       </div>
@@ -36,7 +36,7 @@
           v-for="e in 3"
           :key="e"
           v-text="e + pages_sum - 5"
-          @click="turnTo(e + pages_sum - 5)"
+          @click="() => turnTo(e + pages_sum - 5)"
           :class="{ is_current_page: current_page == e + pages_sum - 5 }"
         ></li>
       </div>
@@ -47,10 +47,10 @@
         class="page-index"
         :class="{ is_current_page: current_page == pages_sum + e - 2 }"
         v-text="pages_sum + e - 2"
-        @click="turnTo(pages_sum + e - 2)"
+        @click="() => turnTo(pages_sum + e - 2)"
       ></li>
 
-      <li class="next-page" @click="toNextPage">下一頁</li>
+      <li class="next-page" @click="toNextPage">下一页</li>
     </div>
 
     <!-- 总页码数不超过12时，显示所有页面按钮 -->
@@ -60,7 +60,7 @@
         v-for="e in pages_sum"
         :key="e"
         v-text="e"
-        @click="turnTo(e)"
+        @click="() => turnTo(e)"
         :class="{ is_current_page: e == current_page }"
       ></li>
     </div>
@@ -136,27 +136,28 @@ export default {
   li {
     list-style-type: none;
     text-decoration: none;
-    margin: 0.5vmax;
-    min-width: 1.5vmax;
-    padding: 0.3vmax;
+    margin: 0 0.4rem;
+    min-width: 1rem;
+    padding: 0.2rem;
     border-radius: 0.2vmax;
     text-align: center;
-    background: #68563a;
-    font-size: 1vmax;
+    border: 1px solid #41466e;
+    font-size: 0.7rem;
     /* position: relative; */
     display: inline-block;
     cursor: pointer;
-    color: #eee;
+    color: #41466e;
+    &:hover {
+      filter: brightness(130%);
+    }
+    &.is_current_page {
+      background-color: #41466e;
+      color: #fff;
+    }
   }
   div {
     display: inline-block;
+    font-size: 0.7rem;
   }
-}
-.page-divider li.is_current_page {
-  background-color: #fbb03b;
-  color: #68563a;
-}
-.page-divider li:hover {
-  filter: brightness(130%);
 }
 </style>
