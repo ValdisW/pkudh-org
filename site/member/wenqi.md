@@ -10,7 +10,7 @@ bg_image: "/images/home-bg.png"
 
 #### 学业经历
 
-- 2020-Present 北京大学 情报学博士研究
+- 2020-Present 北京大学 情报学博士研究生
 - 2014-2016 华盛顿大学 人机交互设计 硕士 （M.S. in Human Centered Design and Engineering
 - 2010-2014 北京大学 信息管理与信息系统 学士 （Bachelor of Management in Information System and Management)
 

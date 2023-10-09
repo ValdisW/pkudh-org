@@ -246,27 +246,31 @@ export default {
     //   // this.composer.render();
     //   this.frame_count += 0.02;
     // },
+    // 选择项目，加入banner列表
+    init_banner_list() {
+      let projects = this.$site.pages.filter((e) => e.frontmatter.headline);
+      // let projects = this.$site.pages.filter((e) => e.id == "projects");
+      projects.sort((a, b) => b.frontmatter.headline - a.frontmatter.headline);
+      console.log(projects);
+      this.bnl = projects.slice(0, 10).map((e) => {
+        return {
+          pic_url: e.frontmatter.image,
+          link_url: e.path,
+          title: e.frontmatter.title,
+          intro: e.frontmatter.intro,
+          description: e.frontmatter.title,
+          link: e.frontmatter.link,
+          colors: e.frontmatter.colors,
+        };
+      });
+    },
   },
   created() {
     let news = this.$site.pages.filter((e) => e.id == "news");
     news.sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
     this.latest_news = news.slice(0, 5);
 
-    // 选择项目，加入banner列表
-    let projects = this.$site.pages.filter((e) => e.id == "projects");
-    projects.sort((a, b) => b.frontmatter.index - a.frontmatter.index);
-    console.log(projects);
-    this.bnl = projects.slice(0, 7).map((e) => {
-      return {
-        pic_url: e.frontmatter.image,
-        link_url: e.path,
-        title: e.frontmatter.title,
-        intro: e.frontmatter.intro,
-        description: e.frontmatter.title,
-        link: e.frontmatter.link,
-        colors: e.frontmatter.colors,
-      };
-    });
+    this.init_banner_list();
 
     // this.init();
     // this.animate();

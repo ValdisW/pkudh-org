@@ -111,6 +111,9 @@ export default {
       justify-content: center;
       height: 20rem;
       box-shadow: inset 0 0 1.6rem 0.25rem rgba(14, 21, 47, 0.12), 0 0 1.6rem 0.25rem rgba(14, 21, 47, 0.12);
+
+      width: fit-content;
+      margin: 0 auto;
       .poster {
         // width: calc(100% - @control-width);
         width: fit-content;
@@ -210,8 +213,8 @@ export default {
           cursor: pointer;
           margin: 0 1.2rem;
           padding: 0.4rem 0.6rem;
-          border-bottom: 1px solid #666;
-          color: #ccc;
+          border-bottom: 1px solid #5a5a5a;
+          color: #aaa;
           font-size: 0.7rem;
           &:hover {
             background: #fff2;

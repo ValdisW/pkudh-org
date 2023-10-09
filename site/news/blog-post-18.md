@@ -45,18 +45,14 @@ draft: false
 还等什么，快来体验吧：[http://wyd.pkudh.xyz](http://wyd.pkudh.xyz)
 诚挚地感谢研发团队的努力和付出！
 
-模型研发：唐雪梅、严承希、陈雨航、岳铁骐
-
-界面设计：梁利敏、汪博涵、李文琦、孙蕴珂
-
-前端开发：黄恒博
-
-后端开发：孟令勇
-
-Logo 设计：李若屹
+**模型研发：** 唐雪梅、严承希、陈雨航、岳铁骐  
+**界面设计：** 梁利敏、汪博涵、李文琦、孙蕴珂  
+**前端开发：** 黄恒博  
+**后端开发：** 孟令勇  
+**Logo 设计：** 李若屹
 
 扫码添加管理员，加入用户交流群
 
-![qr](/images/blog/blog-18/qr.png)
+<img style="width:180px;margin:0;" src="/images/blog/blog-18/valdisw98.jpg"/>
 
-微信号：minmin286536043
+微信号：valdisw98

@@ -22,7 +22,7 @@ In the spring semester of 2020 year, the Digital Humanities Research Center of P
 
 Introduction to the five keynote speakers are as follows:
 
-<img data-src="/images/seminar/denxiaonan.jpg">
+![denxiaonan](/images/seminar/denxiaonan.jpg)
 
 **邓小南，**
 北京大学人文社会科学研究院院长、博雅讲席教授、中国古代史研究中心教授、“中国古代政治与文化”国家级精品课主讲人、国家高等教育名师。主要研究领域有宋史、古代官僚制度史、唐宋妇女史等，曾赴哈佛大学、耶鲁大学、早稻田大学、牛津大学等海外高校授课或合作研究，长期支持北京大学数字人文的发展。著作有《祖宗之法：北宋前期政治述略》、《宋代历史探求》等百余篇学术论著。
@@ -30,7 +30,7 @@ Introduction to the five keynote speakers are as follows:
 **Xiaonan Deng,**
 Director of the Institute of Humanities and Social Sciences of Peking University, Professor of the Centre for Research on Ancient Chinese History, Peking University; Vice President of the Association of Chinese Historians. Her research mainly focuses on history of Song Dynasty, ancient Chinese bureaucratic systems and women’s history in the Tang and Song Dynasties with more than 100 related books and articles published. Professor Deng has given lectures and conducted collaborative researches at leading universities including Harvard University, Yale University, Waseda University, and Oxford University. She has been devoted to supporting the development of Digital Humanities at Peking University.
 
-<img data-src="/images/seminar/baobide.jpg" >
+![baobide](/images/seminar/baobide.jpg)
 
 **包弼德，**
 国际著名中国历史研究学者，哈佛大学东亚语言与文明系讲座教授，曾任哈佛副教务长和哈佛慕课平台负责人。他是哈佛大学中国历史公开课 (ChinaX) 与数字人文导论公开课的主讲人，中国历史地理信息系统项目 (CHGIS) 和中国历代人物传记资料库项目 (CBDB) 的负责人。包弼德教授主要研究方向有：中国唐宋元明思想史研究，中国文化精英历史研究，数字人文网络基础设施建设等。出版了大量中文、日文和英文的学术著作与研究论文。
@@ -38,7 +38,7 @@ Director of the Institute of Humanities and Social Sciences of Peking University
 **Peter K. Bol,**
 the Charles H. Carswell Professor of East Asian Languages and Civilizations at Harvard University, and Vice Provost of Harvard University responsible for HarvardX (2013-2018). He lectures on ChinaX, a world popular MOOC course about China history. He directs the China Historical Geographic Information Systems (CHGIS) project, and the China Biographical Database (CBDB) project. He has published widely in Chinese, Japanese, and English on the history of China’s cultural elites from the 7th to the 17th centuries and the application of geographic analysis in teaching and research.
 
-<img data-src="/images/seminar/fanfeng.jpg">
+![fanfeng](/images/seminar/fanfeng.jpg)
 
 **薛鳳，**
 德国柏林马克斯•普朗克科学史研究所所长，柏林工业大学科学技术史教授。主要致力于中国古代科学技术史的研究，刚刚荣获 2020 年度德国最高学术荣誉——莱布尼茨奖。主持有关中国地方志的数据库研究项目，推出了数字人文研究工具 LoGarRT。著作有《工开万物 ：17 世纪中国的知识与技术》等。
