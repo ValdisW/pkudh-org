@@ -33,10 +33,7 @@ export default {
   },
   mounted() {
     this.projects = this.$pagination.pages;
-    this.projects.sort(function (a, b) {
-      return b.frontmatter.index - a.frontmatter.index;
-    });
-    console.log(this.projects);
+    this.projects.sort((a, b) => b.frontmatter.index - a.frontmatter.index);
   },
 };
 </script>

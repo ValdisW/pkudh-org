@@ -57,6 +57,9 @@ module.exports = {
             path: "/projects/",
             itemPermalink: "/project/:slug",
             layout: "ProjectsIndex",
+            pagination: {
+              lengthPerPage: 16,
+            },
           },
         ],
         frontmatters: [

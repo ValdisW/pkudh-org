@@ -250,8 +250,7 @@ export default {
     init_banner_list() {
       let projects = this.$site.pages.filter((e) => e.frontmatter.headline);
       // let projects = this.$site.pages.filter((e) => e.id == "projects");
-      projects.sort((a, b) => b.frontmatter.headline - a.frontmatter.headline);
-      console.log(projects);
+      projects.sort((a, b) => b.frontmatter.headline - a.frontmatter.headline); // 按headline排序，数字大的在前
       this.bnl = projects.slice(0, 10).map((e) => {
         return {
           pic_url: e.frontmatter.image,

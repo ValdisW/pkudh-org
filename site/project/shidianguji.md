@@ -1,16 +1,16 @@
 ---
-index: 8
-headline: 8
+index: 8 # 项目索引，用于排序
+headline: 8 # 在首页Banner中的顺序，数字越大则越靠前
 title: 识典古籍阅读与整理平台
 intro: 为了更好地保护与利用古籍，提升古籍数字化水平，向大众传播古籍知识，在字节跳动的支持下，北京大学与字节跳动公益部门联合成立了“北京大学-字节跳动开放实验室”，期望解决古籍数字化利用过程中的瓶颈问题，打造互联网环境下内容丰富、使用便捷的高质量古籍数字化阅读平台，面向海内外学者和古籍爱好者免费开放。同时为了支持阅读平台的数据加工的需要，还建设有面向古籍收藏机构和整理人员的一站式古籍智能整理平台。
 image: "/images/portfolio/shidianguji1.png"
 bg_image: "/images/bg.jpg"
 category: "古籍知识图谱"
 link: "https://shidianguji.com/"
-colors:
-  - "#E98731"
-  - "#D3CABF"
-  - "#EEEDEA"
+colors: # 在Banner中的配色，需搭配headline属性使用
+  - "#E98731" # 文字和按钮的颜色
+  - "#D3CABF" # 图片外框的颜色
+  - "#EEEDEA" # 背景色
 ---
 
 ## 简介
